@@ -16,7 +16,8 @@ function fn(){
 fn();
 
 //Hoisting Funções
-
+//Neste segundo caso a função foi utilizada antes de sua declaração sem problemas ou undefined
+//no caso de hoisting de funções a função é usada como todo
 function funcao(){
     log('Hoisting de Função');
 
